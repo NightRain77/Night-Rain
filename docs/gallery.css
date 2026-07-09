@@ -1,38 +1,87 @@
-* {
+header {
+  background-image: url('images/hydrangea_background.jpg');
+  background-size: cover; /* Ensures image covers the area */
+  background-color: rgba(255, 255, 255, 0.6);
+  background-blend-mode: lighten;
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+  height: auto; /* Adjust based on your header design */
+  
+}
+h1
+{
+    color:#584f70;
+    font-size: 50px;
+    font-family: "Monaco", "Courier New", monospace;
+    text-align: center;
+}
+h3
+{
+    font-size: 25px;
+    font-family: "Georgia", Times, serif;
+    text-align: center;
+}
+body
+{
+    background-color: white;
+    color:#584f70;
+    font-size: 17px;
+    text-align: center;
+}
+h4
+{
+    color:#584f70;
+    text-align:left;
+    font-family: "Monaco", "Courier New", monospace;
+}
+
+h5
+{
+    color:#584f70;
+    font-size: 20px;
+    font-family: "Georgia", Times, serif;
+    text-align: center;
+}
+
+li
+{
+    text-align: left;
+}
+
+p {
+    color:#584f70;
+    font-size: 17px;
+    text-align: left;
+}
+
+ul.navbar {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+  background-color: #b2c4dc;
+  text-align: left;
+  font-family: "Monaco", "Courier New", monospace;
+  letter-spacing: 1px;
+  color: #758ec4;
+  font-size: 20px;
 }
 
-body {
-  background-color: #f5f7fa;
-  color: #333;
-  line-height: 1.6;
+li.navbar {
+  float: left;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-header {
+li.navbar a {
+  display: block;
+  color: #09142e;
   text-align: center;
-  margin-bottom: 40px;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-  color: #2c3e50;
-}
-
-.subtitle {
-  font-size: 1.1rem;
-  color: #7f8c8d;
-  max-width: 600px;
-  margin: 0 auto;
+li.navbar a:hover {
+  color: #09142e;
+  background-color: #09142e;
 }
 
 .tabs {
@@ -40,7 +89,7 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 30px;
-  border-bottom: 1px solid #e1e4e8;
+  border-bottom: 1px solid #09142e;
   padding-bottom: 10px;
 }
 
@@ -54,12 +103,12 @@ h1 {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  color: #7f8c8d;
+  color: #09142e;
 }
 
 .tab:hover {
-  background-color: #e9ecef;
-  color: #495057;
+  background-color: #a4def9;
+  color: #09142e;
 }
 
 .tab.active {
@@ -151,6 +200,7 @@ footer {
 
   .tab {
     padding: 10px 16px;
+    font-family: "Georgia", Times, serif;
     font-size: 0.9rem;
   }
 }
