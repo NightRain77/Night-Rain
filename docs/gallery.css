@@ -12,13 +12,13 @@ h1
 {
     color:#584f70;
     font-size: 50px;
-    font-family: "Monaco", "Courier New", monospace;
-    text-align: center;
+    font-family: "Palatino", "URW Palladio L", serif;
+    text-align: l;
 }
 h3
 {
     font-size: 25px;
-    font-family: "Georgia", Times, serif;
+    font-family: "Palatino", "URW Palladio L", serif;
     text-align: center;
 }
 body
@@ -32,14 +32,14 @@ h4
 {
     color:#584f70;
     text-align:left;
-    font-family: "Monaco", "Courier New", monospace;
+    font-family: "Palatino", "URW Palladio L", serif;
 }
 
 h5
 {
     color:#584f70;
     font-size: 20px;
-    font-family: "Georgia", Times, serif;
+    font-family: "Palatino", "URW Palladio L", serif;
     text-align: center;
 }
 
@@ -60,7 +60,9 @@ ul.navbar {
   padding: 0;
   overflow: hidden;
   background-color: #b2c4dc;
-  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Monaco", "Courier New", monospace;
   letter-spacing: 1px;
   color: #758ec4;
@@ -68,7 +70,7 @@ ul.navbar {
 }
 
 li.navbar {
-  float: left;
+  float: none;
 }
 
 li.navbar a {
@@ -80,7 +82,7 @@ li.navbar a {
 }
 
 li.navbar a:hover {
-  color: #09142e;
+  color: #a4def9;
   background-color: #09142e;
 }
 
@@ -89,31 +91,32 @@ li.navbar a:hover {
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 30px;
-  border-bottom: 1px solid #09142e;
+  border-bottom: 1px solid #a4def9;
   padding-bottom: 10px;
 }
 
 .tab {
-  padding: 12px 24px;
+  padding: 12px 24px; 
+  font-family: "Monaco", "Courier New", monospace;
   margin: 0 5px 10px;
   background: none;
   border: none;
   border-radius: 30px;
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
   color: #09142e;
 }
 
 .tab:hover {
-  background-color: #a4def9;
+  background-color: #e9ecef;
   color: #09142e;
 }
 
 .tab.active {
-  background-color: #3498db;
-  color: white;
+  background-color: #b2c4dc;
+  color: black;
 }
 
 .gallery {
@@ -139,8 +142,8 @@ li.navbar a:hover {
 
 .gallery-item img {
   width: 100%;
-  height: 200px;
-  object-fit: cover;
+  height: auto; /* Preserve full image without cropping */
+  object-fit: contain;
   display: block;
   transition: transform 0.5s ease;
 }
@@ -151,17 +154,24 @@ li.navbar a:hover {
 
 .item-info {
   padding: 15px;
+  font-family: "Palatino", "URW Palladio L", serif;
+  text-align: center;
   background-color: white;
+  
 }
 
 .item-info h3 {
   font-size: 1.2rem;
+  font-family: "Palatino", "URW Palladio L", serif;
+  text-align: center;
   margin-bottom: 5px;
   color: #2c3e50;
 }
 
 .item-info p {
   color: #7f8c8d;
+  font-family: "Palatino", "URW Palladio L", serif;
+  text-align: left;
   font-size: 0.9rem;
 }
 
@@ -203,4 +213,33 @@ footer {
     font-family: "Georgia", Times, serif;
     font-size: 0.9rem;
   }
+}
+
+/* Back to Top button */
+#backToTop {
+  position: fixed;
+  right: 20px;
+  bottom: 24px;
+  background: #b2c4dc;
+  color: #09142e;
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  font-size: 20px;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 1000;
+}
+#backToTop.show {
+  display: flex;
+  opacity: 1;
+  transform: translateY(0);
+}
+#backToTop:hover {
+  transform: scale(1.05);
 }
