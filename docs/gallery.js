@@ -626,7 +626,7 @@ const galleryData = [
   },
   {
     id: 73,
-    title: "$15 - iPhone 16 phone case",
+    title: "$20 - iPhone 16 phone case",
     category: "other",
     image:
       "images/phonecase3.jpg",
@@ -634,7 +634,7 @@ const galleryData = [
   },
   {
     id: 74,
-    title: "$15 - iPhone 16 phone case",
+    title: "$20 - iPhone 16 phone case",
     category: "other",
     image:
       "images/phonecase1.jpg",
