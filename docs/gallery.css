@@ -1,19 +1,38 @@
 header {
-  background-image: url('images/hydrangea_background.jpg');
-  background-size: cover; /* Ensures image covers the area */
-  background-color: rgba(255, 255, 255, 0.6);
-  background-blend-mode: lighten;
-  background-position: center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents tiling */
-  height: auto; /* Adjust based on your header design */
-  
+  position: relative;
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 180px;
+  overflow: hidden;
 }
+
+header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.30);
+}
+
 h1
 {
+    position: relative;
+    z-index: 1;
     color:#584f70;
     font-size: 50px;
     font-family: "Palatino", "URW Palladio L", serif;
-    text-align: l;
+    text-align: center;
+    margin: 0;
+    padding: 18px 32px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.28);
+    border-radius: 14px;
+    box-shadow: 0 4px 20px rgba(88, 79, 112, 0.12);
 }
 h3
 {
@@ -52,6 +71,111 @@ p {
     color:#584f70;
     font-size: 17px;
     text-align: left;
+}
+
+.home-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px 20px 10px;
+}
+
+.welcome-message {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 25px 0 10px;
+}
+
+.upcoming-events {
+  margin: 40px auto 20px;
+  padding: 30px 20px;
+  background: #f7f8fb;
+  border: 1px solid #dfe7f1;
+  border-radius: 18px;
+  box-shadow: 0 6px 18px rgba(88, 79, 112, 0.08);
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.section-heading h2 {
+  margin: 0 0 8px;
+  color: #584f70;
+  font-size: 2rem;
+  font-family: "Palatino", "URW Palladio L", serif;
+}
+
+.section-heading p {
+  margin: 0;
+  color: #6c7280;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.event-list {
+  display: grid;
+  gap: 18px;
+}
+
+.event-card {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 20px;
+  align-items: center;
+  padding: 18px 20px;
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid #e5eaf2;
+}
+
+.event-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #b2c4dc, #dfe9f5);
+  border-radius: 12px;
+  padding: 14px 10px;
+  min-height: 90px;
+}
+
+.event-date .month {
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #09142e;
+}
+
+.event-date .day {
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 700;
+  color: #09142e;
+  margin-top: 6px;
+}
+
+.event-details {
+  text-align: left;
+}
+
+.event-details h3 {
+  margin: 0 0 8px;
+  color: #2f3655;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.event-details p {
+  margin: 0;
+  text-align: left;
+}
+
+.event-meta {
+  color: #5d6780;
+  font-size: 0.95rem;
+  margin-bottom: 8px !important;
 }
 
 ul.navbar {

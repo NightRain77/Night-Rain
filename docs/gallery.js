@@ -10,7 +10,7 @@ const galleryData = [
   },
   {
     id: 2,
-    title: "$6 - Prep bowl",
+    title: "$6 - Small jar",
     category: "glassware",
     image:
       "images/06_hydrangea-green.jpg",
@@ -18,7 +18,7 @@ const galleryData = [
   },
   {
     id: 3,
-    title: "$10 - Prep bowl",
+    title: "$10 - Small glass",
     category: "glassware",
     image:
       "images/10_blackglass.jpg",
@@ -623,6 +623,22 @@ const galleryData = [
     image:
       "images/35_pitcher.jpg",
     description: "Dahlia, coneflower, and blanket flower petals"
+  },
+  {
+    id: 73,
+    title: "$15 - iPhone 16 phone case",
+    category: "other",
+    image:
+      "images/phonecase3.jpg",
+    description: "Pink and white peony petals and ferns"
+  },
+  {
+    id: 74,
+    title: "$15 - iPhone 16 phone case",
+    category: "other",
+    image:
+      "images/phonecase1.jpg",
+    description: "Pansies, clovers, and ferns"
   },
 ];
 
