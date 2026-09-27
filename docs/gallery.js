@@ -6,7 +6,7 @@ const galleryData = [
     category: "glassware",
     image:
       "images/04_yellow_prep_bowl.jpg",
-    description: "Yellow blanket flower petals - 2 available"
+    description: "Yellow blanket flower petals"
   },
   {
     id: 2,
@@ -18,11 +18,11 @@ const galleryData = [
   },
   {
     id: 3,
-    title: "$10 - Small glass",
+    title: "$6 - Clearance item!",
     category: "glassware",
     image:
-      "images/10_blackglass.jpg",
-    description: "Black tinted glass with pansies, purple and white verbena, clovers, and little white petals"
+      "images/06_uhoh.jpg",
+    description: "Has a small chip missing on the top. It has been resealed with resin, but I do NOT recommend using it for food/drink. It would still make a nice aesthetic piece!"
   },
   {
     id: 4,
@@ -32,24 +32,16 @@ const galleryData = [
       "images/10_blanket_large.jpg",
     description: "Yellow blanket flower petals"
   },
-  {
+    {
     id: 5,
     title: "$10 - Small glass",
     category: "glassware",
     image:
-      "images/10_blanket_medium.jpg",
-    description: "Yellow blanket flower petals"
+      "images/10_phlox.jpg",
+    description: "Black tinted glass with pink phlox petals"
   },
   {
     id: 6,
-    title: "$10 - Small glass",
-    category: "glassware",
-    image:
-      "images/10_blanket_small.jpg",
-    description: "Yellow blanket flower petals - 2 available"
-  },
-  {
-    id: 7,
     title: "$10 - Small glass",
     category: "glassware",
     image:
@@ -57,15 +49,15 @@ const galleryData = [
     description: "Pink and purple columbine petals and purple stars"
   },
   {
-    id: 8,
-    title: "$10 - Suagr cup",
+    id: 7,
+    title: "$10 - Sugar cup",
     category: "glassware",
     image:
       "images/10_columbinesugar.jpg",
     description: "Pink and purple columbine petals"
   },
   {
-    id: 9,
+    id: 8,
     title: "$10 - Creamer cup",
     category: "glassware",
     image:
@@ -73,7 +65,7 @@ const galleryData = [
     description: "Pink and red dianthus petals"
   },
   {
-    id: 10,
+    id: 9,
     title: "$10 - Small glass",
     category: "glassware",
     image:
@@ -81,7 +73,7 @@ const galleryData = [
     description: "Pink hyacinth petals"
   },
   {
-    id: 11,
+    id: 10,
     title: "$10 - Small jar",
     category: "glassware",
     image:
@@ -89,23 +81,7 @@ const galleryData = [
     description: "Red and white mum petals"
   },
   {
-    id: 12,
-    title: "$10 - Small glass",
-    category: "glassware",
-    image:
-      "images/10_pansyglasses.jpg",
-    description: "Yellow and purple violas - 2 available"
-  },
-  {
-    id: 13,
-    title: "$10 - Small glass",
-    category: "glassware",
-    image:
-      "images/10_ppansy.jpg",
-    description: "Yellow and purple violas"
-  },
-  {
-    id: 14,
+    id: 11,
     title: "$10 - Small glass",
     category: "glassware",
     image:
@@ -113,15 +89,7 @@ const galleryData = [
     description: "Pale purple petunias - 3 available, only one has the dark purple"
   },
   {
-    id: 15,
-    title: "$10 - Small glass",
-    category: "glassware",
-    image:
-      "images/10_purplewhite.jpg",
-    description: "Purple pansy, white and purple verbena, baby's breath, ferns"
-  },
-  {
-    id: 16,
+    id: 12,
     title: "$12 - Small jar with lid",
     category: "glassware",
     image:
@@ -129,7 +97,7 @@ const galleryData = [
     description: "Yellow blanket flower petals and asiatic lily petals"
   },
   {
-    id: 17,
+    id: 13,
     title: "$12 - Small glass",
     category: "glassware",
     image:
@@ -137,7 +105,7 @@ const galleryData = [
     description: "Coneflower petals and yellow violas"
   },
   {
-    id: 18,
+    id: 14,
     title: "$12 - Small jar",
     category: "glassware",
     image:
@@ -145,15 +113,15 @@ const galleryData = [
     description: "Hydrangea petals and blue stars"
   },
   {
-    id: 19,
-    title: "$12 - Small jar with lid",
+    id: 15,
+    title: "$12 - Wine glass",
     category: "glassware",
     image:
       "images/12_blueyellow.jpg",
     description: "Blue tinted glass with yellow violas"
   },
   {
-    id: 20,
+    id: 16,
     title: "$12 - Small container with lid",
     category: "glassware",
     image:
@@ -161,7 +129,7 @@ const galleryData = [
     description: "Daisy petals"
   },
   {
-    id: 21,
+    id: 17,
     title: "$12 - Small jar",
     category: "glassware",
     image:
@@ -169,7 +137,7 @@ const galleryData = [
     description: "Daisy, clover, musk mallow"
   },
   {
-    id: 22,
+    id: 18,
     title: "$12 - Small jar",
     category: "glassware",
     image:
@@ -177,7 +145,7 @@ const galleryData = [
     description: "Hyacinth, daisy, and baby's breath"
   },
   {
-    id: 23,
+    id: 19,
     title: "$12 - Bowl",
     category: "glassware",
     image:
@@ -185,7 +153,7 @@ const galleryData = [
     description: "Orange marigold petals and a black-eyed susan in the center"
   },
   {
-    id: 24,
+    id: 20,
     title: "$12 - Bowl",
     category: "glassware",
     image:
@@ -193,7 +161,7 @@ const galleryData = [
     description: "Orange marigold petals and a black-eyed susan in the center"
   },
   {
-    id: 25,
+    id: 21,
     title: "$12 - Small jar with lid",
     category: "glassware",
     image:
@@ -201,15 +169,7 @@ const galleryData = [
     description: "Orange marigold petals"
   },
   {
-    id: 26,
-    title: "$12 - Small bowl",
-    category: "glassware",
-    image:
-      "images/12_pansyclover.jpg",
-    description: "Pansies and clovers"
-  },
-  {
-    id: 27,
+    id: 22,
     title: "$12 - Medium glass",
     category: "glassware",
     image:
@@ -217,15 +177,7 @@ const galleryData = [
     description: "Yellow and purple pansies"
   },
   {
-    id: 28,
-    title: "$12 - Tumbler with lid and straw",
-    category: "glassware",
-    image:
-      "images/12_pansytumbler1.jpg",
-    description: "Pansies"
-  },
-  {
-    id: 29,
+    id: 23,
     title: "$12 - Tumbler with lid and straw",
     category: "glassware",
     image:
@@ -233,7 +185,7 @@ const galleryData = [
     description: "Pansies"
   },
   {
-    id: 30,
+    id: 24,
     title: "$12 - Small jar with lid",
     category: "glassware",
     image:
@@ -241,7 +193,7 @@ const galleryData = [
     description: "Petunias and ferns"
   },
   {
-    id: 31,
+    id: 25,
     title: "$12 - Small jar with lid",
     category: "glassware",
     image:
@@ -249,7 +201,7 @@ const galleryData = [
     description: "Rose petals and wildflowers"
   },
   {
-    id: 32,
+    id: 26,
     title: "$12 - Small jar with lid",
     category: "glassware",
     image:
@@ -257,7 +209,7 @@ const galleryData = [
     description: "Pansies and violas"
   },
   {
-    id: 33,
+    id: 27,
     title: "$12 - Small jar with lid",
     category: "glassware",
     image:
@@ -265,31 +217,47 @@ const galleryData = [
     description: "Petunias, dianthus, ferns"
   },
   {
-    id: 34,
+    id: 28,
     title: "$14 - Regular glass",
     category: "glassware",
     image:
       "images/14_blackbee.jpg",
     description: "Black stem, black pansies, yellow rose petals"
   },
-  {
-    id: 35,
-    title: "$14 - Regular glass",
+    {
+    id: 29,
+    title: "$14 - Candle holder",
     category: "glassware",
     image:
-      "images/14_blackglass.jpg",
-    description: "Black tinted glass with purple pansies"
+      "images/14_candle_purple.jpg",
+    description: "Purple pansies"
   },
-  {
-    id: 36,
-    title: "$14 - Regular glass",
+    {
+    id: 30,
+    title: "$14 - Candle holder",
     category: "glassware",
     image:
-      "images/14_blackglass2.jpg",
-    description: "Black tinted glass with purple pansies"
+      "images/14_candle_yellow.jpg",
+    description: "Yellow pansies"
+  },
+    {
+    id: 31,
+    title: "14 - Candle holder",
+    category: "glassware",
+    image:
+      "images/14_candle_blue.jpg",
+    description: "Blue pansies"
+  },
+    {
+    id: 32,
+    title: "$14 - Wine glass",
+    category: "glassware",
+    image:
+      "images/14_greenstem.jpg",
+    description: "Wine glass with a twisted green stem, yellow pansies, and buttercups"
   },
   {
-    id: 37,
+    id: 33,
     title: "$14 - Regular glass",
     category: "glassware",
     image:
@@ -297,7 +265,7 @@ const galleryData = [
     description: "Black pansies and yellow rose petals"
   },
   {
-    id: 38,
+    id: 34,
     title: "$14 - Regular glass",
     category: "glassware",
     image:
@@ -305,7 +273,7 @@ const galleryData = [
     description: "Black stem, purple and white violas"
   },
   {
-    id: 39,
+    id: 35,
     title: "$14 - Regular glass",
     category: "glassware",
     image:
@@ -313,7 +281,7 @@ const galleryData = [
     description: "Yellow pansies"
   },
   {
-    id: 40,
+    id: 36,
     title: "$14 - Regular glass",
     category: "glassware",
     image:
@@ -321,7 +289,7 @@ const galleryData = [
     description: "Black pansies and yellow rose petals"
   },
   {
-    id: 41,
+    id: 37,
     title: "$14 - Medium jar",
     category: "glassware",
     image:
@@ -329,7 +297,7 @@ const galleryData = [
     description: "Red dianthus, pink clematis, and purple stars"
   },
   {
-    id: 42,
+    id: 38,
     title: "$14 - Short round container",
     category: "glassware",
     image:
@@ -337,7 +305,7 @@ const galleryData = [
     description: "Purple hysacinth, daisy petals, rose petals"
   },
   {
-    id: 43,
+    id: 39,
     title: "$14 - Storage container with lid",
     category: "glassware",
     image:
@@ -345,7 +313,7 @@ const galleryData = [
     description: "Pansies and violas"
   },
   {
-    id: 44,
+    id: 40,
     title: "$14 - Short round container",
     category: "glassware",
     image:
@@ -353,7 +321,7 @@ const galleryData = [
     description: "Daffodils, pansies, ferns, clovers, and daisies"
   },
   {
-    id: 45,
+    id: 41,
     title: "$14 - Medium jar",
     category: "glassware",
     image:
@@ -361,7 +329,7 @@ const galleryData = [
     description: "Daisy and coneflower petals"
   },
   {
-    id: 46,
+    id: 42,
     title: "$14 - Short round glass",
     category: "glassware",
     image:
@@ -369,7 +337,7 @@ const galleryData = [
     description: "Red dianthus petals"
   },
   {
-    id: 47,
+    id: 43,
     title: "$14 - Medium glass",
     category: "glassware",
     image:
@@ -377,7 +345,7 @@ const galleryData = [
     description: "Green tinted glass, clover, fern, baby's breath, snowball petals"
   },
   {
-    id: 48,
+    id: 44,
     title: "$14 - Round mug",
     category: "glassware",
     image:
@@ -385,7 +353,7 @@ const galleryData = [
     description: "Rose petal and fern"
   },
   {
-    id: 49,
+    id: 45,
     title: "$14 - Medium jar",
     category: "glassware",
     image:
@@ -393,7 +361,7 @@ const galleryData = [
     description: "Muskmallow, clover, and fern"
   },
   {
-    id: 50,
+    id: 46,
     title: "$14 - Regular glass",
     category: "glassware",
     image:
@@ -401,7 +369,7 @@ const galleryData = [
     description: "Pansies"
   },
   {
-    id: 45,
+    id: 47,
     title: "$14 - Geometric vase",
     category: "glassware",
     image:
@@ -409,7 +377,7 @@ const galleryData = [
     description: "Coneflower petals and yellow stars"
   },
   {
-    id: 46,
+    id: 48,
     title: "$15 - Tall glass",
     category: "glassware",
     image:
@@ -417,7 +385,7 @@ const galleryData = [
     description: "Orange black-eyed susans"
   },
   {
-    id: 47,
+    id: 49,
     title: "$15 - Big round glass",
     category: "glassware",
     image:
@@ -425,7 +393,7 @@ const galleryData = [
     description: "Yellow blanket flower petals"
   },
   {
-    id: 48,
+    id: 50,
     title: "$15 - Big round glass",
     category: "glassware",
     image:
@@ -433,7 +401,7 @@ const galleryData = [
     description: "Pink clematis petals"
   },
   {
-    id: 49,
+    id: 51,
     title: "$15 - Big round glass",
     category: "glassware",
     image:
@@ -441,7 +409,7 @@ const galleryData = [
     description: "Purple and yellow coneflower petals"
   },
   {
-    id: 50,
+    id: 52,
     title: "$15 - Tall glass",
     category: "glassware",
     image:
@@ -449,7 +417,7 @@ const galleryData = [
     description: "Daffodil, yellow pansy, clover, fern, and daisy petals"
   },
   {
-    id: 51,
+    id: 53,
     title: "$15 - Big round glass",
     category: "glassware",
     image:
@@ -457,7 +425,7 @@ const galleryData = [
     description: "Orange marigold petals and orange black-eyed susans"
   },
   {
-    id: 52,
+    id: 54,
     title: "$15 - Tall glass",
     category: "glassware",
     image:
@@ -465,15 +433,7 @@ const galleryData = [
     description: "Purple and yellow pansies, clovers"
   },
   {
-    id: 53,
-    title: "$15 - Tall glass",
-    category: "glassware",
-    image:
-      "images/15_pansypurple.jpg",
-    description: "Black tinted glass with purple pansies"
-  },
-  {
-    id: 54,
+    id: 55,
     title: "$15 - Tall glass",
     category: "glassware",
     image:
@@ -481,15 +441,15 @@ const galleryData = [
     description: "Black tinted glass with purple petunias"
   },
   {
-    id: 55,
+    id: 56,
     title: "$15 - Tall glass",
     category: "glassware",
     image:
       "images/15_rhodo.jpg",
-    description: "Rhododendron, fern, mums"
+    description: "Rhododendron, fern, mums - 2 available"
   },
   {
-    id: 56,
+    id: 57,
     title: "$15 - Tall glass",
     category: "glassware",
     image:
@@ -497,7 +457,7 @@ const galleryData = [
     description: "Pansies, ferns, variety of other yellow and orange flowers"
   },
   {
-    id: 57,
+    id: 58,
     title: "$15 - Tall glass",
     category: "glassware",
     image:
@@ -505,7 +465,7 @@ const galleryData = [
     description: "Pansies, violas, and clovers"
   },
   {
-    id: 58,
+    id: 59,
     title: "$16 - Tall and wide glass",
     category: "glassware",
     image:
@@ -513,7 +473,7 @@ const galleryData = [
     description: "Blue and yellow pansies"
   },
   {
-    id: 59,
+    id: 60,
     title: "$16 - Tall glass",
     category: "glassware",
     image:
@@ -521,7 +481,7 @@ const galleryData = [
     description: "Orange tinted glass, baby's breath, clover, wildflowers"
   },
   {
-    id: 60,
+    id: 61,
     title: "$16 - Medium vase",
     category: "glassware",
     image:
@@ -529,7 +489,7 @@ const galleryData = [
     description: "Yellow and purple violas"
   },
   {
-    id: 61,
+    id: 62,
     title: "$18 - Large storage container with lid",
     category: "glassware",
     image:
@@ -537,7 +497,7 @@ const galleryData = [
     description: "Blue and yellow pansies"
   },
   {
-    id: 62,
+    id: 63,
     title: "$18 - Medium vase",
     category: "glassware",
     image:
@@ -545,7 +505,7 @@ const galleryData = [
     description: "Pink clematis petals, pink and red dianthis, purple stars"
   },
   {
-    id: 63,
+    id: 64,
     title: "$18 - Medium vase",
     category: "glassware",
     image:
@@ -553,7 +513,7 @@ const galleryData = [
     description: "Diasy petals"
   },
   {
-    id: 64,
+    id: 65,
     title: "$18 - Medium vase",
     category: "glassware",
     image:
@@ -561,7 +521,7 @@ const galleryData = [
     description: "Yellow and purple pansies"
   },
   {
-    id: 65,
+    id: 66,
     title: "$18 - Round vase",
     category: "glassware",
     image:
@@ -569,7 +529,7 @@ const galleryData = [
     description: "Purple tinted vase with yellow violas"
   },
   {
-    id: 66,
+    id: 67,
     title: "$18 - Medium vase",
     category: "glassware",
     image:
@@ -577,7 +537,7 @@ const galleryData = [
     description: "Yellow and purple pansies"
   },
   {
-    id: 67,
+    id: 68,
     title: "$18 - Large storage container with lid",
     category: "glassware",
     image:
@@ -585,7 +545,7 @@ const galleryData = [
     description: "Yellow pansies"
   },
   {
-    id: 68,
+    id: 69,
     title: "$20 - Star-shaped dish",
     category: "glassware",
     image:
@@ -593,7 +553,7 @@ const galleryData = [
     description: "Yellow pansies, yellow blanket flower petals, orange marigold petals"
   },
   {
-    id: 69,
+    id: 70,
     title: "$20 - Large jar",
     category: "glassware",
     image:
@@ -601,15 +561,31 @@ const galleryData = [
     description: "Yellow and purple violas, yellow stars"
   },
   {
-    id: 70,
+    id: 71,
     title: "$20 - Wine bottle light - 2 available",
     category: "glassware",
     image:
       "images/20_wine.jpg",
     description: "Green glass with rose petals and ferns"
   },
+    {
+    id: 72,
+    title: "$25 - Green pumpkin candy dish - 2 available",
+    category: "glassware",
+    image:
+      "images/25_pumpkin_green.jpg",
+    description: "Green pumpkin candy dish with yellow flowers"
+  },
   {
-    id: 71,
+    id: 73,
+    title: "$25 - Clear pumpkin candy dish",
+    category: "glassware",
+    image:
+      "images/25_pumpkin_clear.jpg",
+    description: "Clear pumpkin candy dish with yellow flowers"
+  },
+  {
+    id: 74,
     title: "$30 - Round hourglass-shaped container",
     category: "glassware",
     image:
@@ -617,7 +593,7 @@ const galleryData = [
     description: "Various pansies and violas. Not sure what the original use of this glassware was, but it could be a candle-holder, a container, or an aesthetic piece."
   },
   {
-    id: 72,
+    id: 75,
     title: "$35 - Large pitcher",
     category: "glassware",
     image:
@@ -625,7 +601,7 @@ const galleryData = [
     description: "Dahlia, coneflower, and blanket flower petals"
   },
   {
-    id: 73,
+    id: 76,
     title: "$20 - iPhone 16 phone case",
     category: "other",
     image:
@@ -633,7 +609,7 @@ const galleryData = [
     description: "Pink and white peony petals and ferns"
   },
   {
-    id: 74,
+    id: 77,
     title: "$20 - iPhone 16 phone case",
     category: "other",
     image:

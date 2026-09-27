@@ -264,6 +264,38 @@ const galleryData = [
       "images/kcsetup.jpg",
     description: "Various keychains"
   },
+   {
+    id: 33,
+    title: "Key chains",
+    category: "glassware",
+    image:
+      "images/archive_pansyglasses.jpg",
+    description: "Pansies"
+  },
+   {
+    id: 34,
+    title: "Bowl",
+    category: "glassware",
+    image:
+      "images/archive_pansyclover.jpg",
+    description: "Pansies and clovers"
+  },
+   {
+    id: 35,
+    title: "Small glass",
+    category: "glassware",
+    image:
+      "images/archive_pansy.jpg",
+    description: "Pansies"
+  },
+   {
+    id: 36,
+    title: "Small glass",
+    category: "glassware",
+    image:
+      "images/archive_blanket_medium.jpg",
+    description: "Blanket flower petals"
+  },
 ];
 
 // DOM elements
