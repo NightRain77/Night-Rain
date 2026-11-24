@@ -22,6 +22,20 @@ const galleryData = [
     description: "Has a small chip missing on the top. It has been resealed with resin, but I do NOT recommend using it for food/drink. It would still make a nice aesthetic piece!"
   },
   {
+    title: "$8 - Green vase",
+    category: "glassware",
+    image:
+      "images/8_green.jpg",
+    description: "Small green vase with roses and ferns"
+  },
+  {
+    title: "$8 - Black-eyed susan vase",
+    category: "glassware",
+    image:
+      "images/8_susan.jpg",
+    description: "Small vase with orange black-eyed susans"
+  },
+  {
     title: "$10 - Small glass",
     category: "glassware",
     image:
@@ -76,6 +90,48 @@ const galleryData = [
     image:
       "images/10_purples.jpg",
     description: "Pale purple petunias - 3 available, only one has the dark purple"
+  },
+  {
+    title: "$10 - Small glass (2 available)",
+    category: "glassware",
+    image:
+      "images/10_purple1.jpg",
+    description: "Black tinted glass with purple pansies"
+  },
+    {
+    title: "$10 - Sugar cup",
+    category: "glassware",
+    image:
+      "images/10_petunia.jpg",
+    description: "A sugar cup with a purple petunia and pale pink dianthus petals"
+  },
+    {
+    title: "$10 - Small jar",
+    category: "glassware",
+    image:
+      "images/10_mums.jpg",
+    description: "Red and white mum petals"
+  },
+  {
+    title: "$12 - Pink glass (2 available)",
+    category: "glassware",
+    image:
+      "images/12_pinkphlox.jpg",
+    description: "Pink tinted glasses with phlox"
+  },
+  {
+    title: "$12 - Pink glass (3 available)",
+    category: "glassware",
+    image:
+      "images/12_pink.jpg",
+    description: "Pink tinted glasses with rose petals"
+  },
+    {
+    title: "$12 - Orange bowl",
+    category: "glassware",
+    image:
+      "images/12_orangebowl.jpg",
+    description: "Orange tinted bowl with yellow violas and clovers"
   },
   {
     title: "$12 - Small jar with lid",
@@ -329,6 +385,48 @@ const galleryData = [
       "images/14_starry_coneflower_geometric.jpg",
     description: "Coneflower petals and yellow stars"
   },
+    {
+    title: "$14 - Candle holder",
+    category: "glassware",
+    image:
+      "images/14_tigerlily.jpg",
+    description: "Tiger lily petals, ferns, and yellow coneflower petals"
+  },
+    {
+    title: "$14 - Candle holder",
+    category: "glassware",
+    image:
+      "images/14_susan.jpg",
+    description: "Black-eeyd susans, ferns, and yellow coneflower petals"
+  },
+    {
+    title: "$14 - Wine glass",
+    category: "glassware",
+    image:
+      "images/14_red.jpg",
+    description: "Glass with red base, ferns, and red coneflower petals"
+  },
+    {
+    title: "$14 - Candy dish",
+    category: "glassware",
+    image:
+      "images/14_daisybowl.jpg",
+    description: "Daisies, muskmallow, fern, forget-me-nots"
+  },
+    {
+    title: "$14 - Jar",
+    category: "glassware",
+    image:
+      "images/14_jar.jpg",
+    description: "Black-eyed susans, ferns, and yellow coneflower petals"
+  },
+    {
+    title: "$14 - Wine glass",
+    category: "glassware",
+    image:
+      "images/14_blue.jpg",
+    description: "Blue tinted glass with phlox"
+  },
   {
     title: "$15 - Tall glass",
     category: "glassware",
@@ -497,6 +595,27 @@ const galleryData = [
       "images/20_wine.jpg",
     description: "Green glass with rose petals and ferns"
   },
+  {
+    title: "$20 - Wine bottle light",
+    category: "glassware",
+    image:
+      "images/20_rhodo.jpg",
+    description: "Pink rhododendron petals"
+  },
+    {
+    title: "$20 - Wine bottle light",
+    category: "glassware",
+    image:
+      "images/20_phlox.jpg",
+    description: "Pale phlox"
+  },
+  {
+    title: "$25 - Teapot",
+    category: "glassware",
+    image:
+      "images/25_teapot.jpg",
+    description: "Teapot with daisy petals, forget-me-nots, and ferns"
+  },
     {
     title: "$25 - Green pumpkin candy dish - 2 available",
     category: "glassware",
@@ -539,6 +658,7 @@ const galleryData = [
       "images/phonecase1.jpg",
     description: "Pansies, clovers, and ferns"
   },
+
 ];
 
 // DOM elements
